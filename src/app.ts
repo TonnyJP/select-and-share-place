@@ -6,7 +6,7 @@ declare var google : google;
 
 const form = document.querySelector('form')!;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
-const GOOGLE_API_KEY = "AIzaSyC8GIh_GLEGAZEEdnNybQVNOZVV8VpIirg";
+const GOOGLE_API_KEY = ""// value in config;
 
 type GoogleGeocodingResponse = {
     results: {geometry: {location: {lat: number, lng: number}}}[];
